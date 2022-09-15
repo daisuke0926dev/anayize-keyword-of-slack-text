@@ -101,9 +101,12 @@ def exchange():
     for data_may_be_posting in contain_non_posting_data:
         each_lines_of_post:str = data_may_be_posting.split('\n')
         # contain mm:ss on the line
-        contain_time:bool = re.search('[0-9]{2}:[0-9]{2}',each_lines_of_post[LINE_OF_POSTER_STATUS_AND_TIME]) is not None
-        if(contain_time):
-            posting_data.append(data_may_be_posting)
+        if(len(each_lines_of_post) > LINE_OF_POSTER_STATUS_AND_TIME):
+            contain_time:bool = re.search('[0-9]{2}:[0-9]{2}',each_lines_of_post[LINE_OF_POSTER_STATUS_AND_TIME]) is not None
+            if(contain_time):
+                posting_data.append(data_may_be_posting)
+        else:
+            pass
 
     ret_arr:array = []
     for a_post in posting_data:
