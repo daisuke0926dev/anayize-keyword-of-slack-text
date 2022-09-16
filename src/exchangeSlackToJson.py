@@ -150,7 +150,8 @@ def exchange():
                         reaction_array.append(Reaction(reaction_name,reaction_count))
                 else:
                     if(line[0]=='@' and len(line) < MAX_MENTION_LENGTH):
-                        post_massage += ' '+line
+                        # post_massage += ' '+line
+                        pass
                     elif(' に追加されました。' in line or 'チャンネルのトピックを設定しました: ' in line or ' に参加しました。' in line):
                         be_skip = True
                     else:
