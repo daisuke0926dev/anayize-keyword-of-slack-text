@@ -3,7 +3,7 @@ import MeCab
 import exchangeSlackToJson
 import unidic
 from yake import KeywordExtractor
-# C:\Users\Owner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\lib\site-packages\MeCab\
+# C:\Users\Owner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\lib\site-packages\
 # if your environment can not import MeCab, you should copy and paste libmecab.dll ↑ to ↓
 # C:\Users\Owner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\MeCab\
 

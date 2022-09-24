@@ -1,9 +1,14 @@
-import seaborn
 import matplotlib.pyplot as plt
 import getKeyword
+import numpy as np
+import japanize_matplotlib
 
 word_and_importance = getKeyword.getKeywordAndImportance()
-seaborn.set(context="talk")
-fig = plt.subplots(figsize=(8, 8))
- 
-seaborn.countplot(y=word_and_importance,order=[i[0] for i in c.most_common(20)])
+
+myList = word_and_importance.items()
+myList = sorted(myList) 
+x, y = zip(*myList) 
+
+plt.barh(x, y, color='#effef0', edgecolor='#9ffea0')
+plt.title("キーワード", fontname="MS Gothic")
+plt.show()
