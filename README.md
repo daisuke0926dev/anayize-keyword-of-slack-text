@@ -1,30 +1,31 @@
+###
 # Name
 
 anayize-keyword-of-slack-text
 
-slack app上でctrl+a -> ctrl+cをし、本アプリを使うことでキーワードを抽出します。
-アイデアを投稿するチャンネルで利用されることを想定しています。
-(複数のアイデアからキーワードを抽出し、組み合わせることで新たなアイデアを創出するため)
+This application allows you to extract keywords by pressing ctrl+a -> ctrl+c on a slack app.
+It is designed to be used in channels where ideas are posted. 
+(The goal is to extract keywords from multiple ideas and combine them to create new ideas)
 
 # DEMO
 
-now creating...
+Currently under construction...
 
 # Features
 
-api keyを使わずに利用でき、煩わしさ軽減
+Can be used without an API key, reducing the hassle
 
-# Requirement
+# Requirements
 
-now creating...
+Currently under construction...
 
 * huga 3.5.2
 * hogehuga 1.0.2
 
 # Installation
 
-now creating...
-Requirementで列挙したライブラリなどのインストール方法を説明する
+Currently under construction...
+This section will explain how to install the libraries listed in the requirements.
 
 ```bash
 pip install huga_package
@@ -32,8 +33,8 @@ pip install huga_package
 
 # Usage
 
-now creating...
-DEMOの実行方法など、基本的な使い方を説明する
+Currently under construction...
+This section will explain how to execute the DEMO, as well as the basic usage of the program.
 
 ```bash
 git clone https://github.com/hoge/~
@@ -43,18 +44,18 @@ python demo.py
 
 # Note
 
-1投稿が短文だと精度が低いです。
-3文ほどの分量であれば何とか機能するレベル感です。
+The accuracy is low if the post is a short sentence.
+It works at a manageable level if it is about three sentences long.
 
 # Author
 
-作成情報を列挙する
+This section will provide the creator's information.
 
-* 作成者：石井大介
-* E-mail：isiidaisuke0926@yahoo.co.jp
+* Creator: Daisuke Ishii
+* E-mail: isiidaisuke0926@yahoo.co.jp
 
 # License
-ライセンスを明示する
+This section will specify the license.
 
-now creating...
-"hoge" is under [xxx license](https://en.wikipedia.org/wiki/xxx_License).
+Currently under construction...
+"hoge" is under the [xxx license](https://en.wikipedia.org/wiki/xxx_License).
